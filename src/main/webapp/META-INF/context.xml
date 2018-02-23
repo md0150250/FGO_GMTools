@@ -1,0 +1,28 @@
+﻿<?xml version='1.0' encoding='utf-8'?> 
+<Context displayName="jspExercise" docBase="jspExercise" path="/jspExercise" reloadable="true">
+  <!--                     MySQL                   -->
+  <Resource name="jdbc/MemberDB" type="javax.sql.DataSource"
+      username="root" password="yiyi2016"
+      driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql://192.168.0.200:3306/FGO"
+      connectionProperties="useUnicode=yes;characterEncoding=utf8;"
+      maxActive="8"
+      maxIdle="4"
+      maxWait="5000"
+  />  
+  
+  <Resource name="jdbc/projectDB" type="javax.sql.DataSource"
+      username="root" password="a53313158"
+      driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql:///iRead"
+      connectionProperties="useUnicode=yes;characterEncoding=utf8;"
+      maxActive="8"
+      maxIdle="4"
+      maxWait="5000"
+  />  
+  
+<!-- 要加 !!  -->
+<!--url="jdbc:mysql://localhost:3306/jspdb" -->
+<!-- connectionProperties="useUnicode=yes;characterEncoding=utf8;"  -->
+ 
+</Context>
